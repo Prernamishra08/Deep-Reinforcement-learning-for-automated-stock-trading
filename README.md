@@ -21,6 +21,19 @@ In this project, we experimented with different combinations of deep reinforceme
 - [models.py](models.py)
   - This python file is created for the ensemble model of all 5 policies, where we created an ensemble function that deals with all 5 policies.
 
+## Solution Diagram:
+### Problem Setup
+![Problem Setup](https://github.com/haoxiangzhx/Deep-Reinforcement-learning-for-automated-stock-trading/blob/main/viz/diagram-1.png)
+### Evaluation Workflow
+![Evaluation Workflow](https://github.com/haoxiangzhx/Deep-Reinforcement-learning-for-automated-stock-trading/blob/main/viz/diagram-2.png)
+
+## Evaluation Results:
+### Portfolio performance of different models
+![](https://github.com/haoxiangzhx/Deep-Reinforcement-learning-for-automated-stock-trading/blob/main/viz/eval1.png)
+### Cumulative returns volatility compared to the benchmark
+![](https://github.com/haoxiangzhx/Deep-Reinforcement-learning-for-automated-stock-trading/blob/main/viz/eval2.png)
+### Rolling volatility, rolling sharpe ration and monthly return
+![](https://github.com/haoxiangzhx/Deep-Reinforcement-learning-for-automated-stock-trading/blob/main/viz/eval3.png)
 
 ## Running instructions
 - Following the steps in the jupyter notebook of each model.
