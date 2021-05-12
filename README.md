@@ -7,16 +7,16 @@ In this project, we experimented with different combinations of deep reinforceme
 - Haoxiang Zhang
 
 ## Code Structure:
-- [Baseline model](baseline.ipynb)
+- [Baseline model](notebooks/baseline.ipynb)
   - This model includes A2C, PPO and DDPG policies.
   - This model includes macd, boll_ub, boll_lb, rsi_30, cci_30, dx_30, close_30_sma, close_60_sma technical indicators obtained from stockstats pacakge.
-- [Model without technical indicators](TBA)
+- [Model without technical indicators](notebooks/Base-without_tech_indicators.ipynb)
   - This model is same as the baseline model, except it does not include any technical indicators. This model is to study the effectiveness of greatly reduced state space after excluding all technical indicators.
-- [Model with additional technical indictor ATR](TBA)
+- [Model with additional technical indictor ATR](notebooks/Base+ATR.ipynb)
   - This model is same as the baseline model, except that a new technical indicator ATR is added.
-- [Model with additional technical indicator EMA](Base+EMA.ipynb)
+- [Model with additional technical indicator EMA](notebooks/Base+EMA.ipynb)
   - This model is same as the baseline model, except that a new technical indicator EMA is added.
-- [Ensemble model of all 5 policies](all_5_policies.ipynb)
+- [Ensemble model of all 5 policies](notebooks/all_5_policies.ipynb)
   - This ensemble model studies the effectiveness of ensembling all five deep reinforcement learning policies: A2C, PPO, DDPG, TD3 and SAC.
 - [models.py](models.py)
   - This python file is created for the ensemble model of all 5 policies, where we created an ensemble function that deals with all 5 policies.
