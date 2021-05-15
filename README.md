@@ -6,6 +6,9 @@ In this project, we experimented with different combinations of deep reinforceme
 - Sudharsan Asaithambi
 - Haoxiang Zhang
 
+## Final Project Report
+- [Final Project Report](Final_Project_Report.pdf)
+
 ## Code Structure:
 - [Baseline model](notebooks/baseline.ipynb)
   - This model includes A2C, PPO and DDPG policies.
